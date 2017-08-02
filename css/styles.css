@@ -1,0 +1,32 @@
+h1{
+  color: crimson;
+  text-align: center;
+
+
+  background-color: lightblue;
+
+}
+#firstHeader{
+  color: coral;
+}
+
+h2{
+  color: DarkSalmon;
+  background-color: crimson;
+}
+
+body {
+    background-image: url("../server.png");
+    background-repeat: repeat-x;
+    background-color: lightblue;
+    color: white;
+    font-family:  "consolas";
+}
+li{
+  color: blue;
+}
+
+#minta{
+  color: yellow;
+  
+}
