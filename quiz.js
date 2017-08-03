@@ -1,4 +1,4 @@
-var quiztitle = "Social Security Quiz";
+var quiztitle = "Test your maths skills!";
 
 
 var quiz = [
