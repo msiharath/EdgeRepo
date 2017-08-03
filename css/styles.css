@@ -3,30 +3,29 @@ h1{
   text-align: center;
 
 
-  background-color: lightblue;
 
 }
-#firstHeader{
-  color: coral;
-}
+
+
 
 h2{
-  color: DarkSalmon;
-  background-color: crimson;
+  color: white;
+
 }
 
 body {
-    background-image: url("../server.png");
-    background-repeat: repeat-x;
-    background-color: lightblue;
+    background-color:green;
     color: white;
-    font-family:  "consolas";
+    
+
 }
 li{
   color: blue;
 }
 
-#minta{
-  color: yellow;
-  
+
+
+*{
+  background-color:green;
+
 }
