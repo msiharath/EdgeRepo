@@ -32,7 +32,6 @@ strong {
 #frame {
     max-width:620px;
     width:auto;
-    border:1px solid #ccc;
     background:green;
     padding:10px;
     margin:3px;
@@ -40,7 +39,6 @@ strong {
 h1 {
     font:normal bold 2em/1.8em"Comic Sans MS", sans-serif;
     text-align:center;
-    border-bottom:1px solid #999;
     padding:0;
     width:auto
     color: white;
