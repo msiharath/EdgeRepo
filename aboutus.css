@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: fantasy;
+  font-family: "Comic Sans MS";
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -120,6 +120,7 @@ textarea {
 }
 button {
   overflow: visible;
+  color: white;
 }
 button,
 select {
@@ -6754,5 +6755,9 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+small{
+  color: white;
 }
 /*# sourceMappingURL=bootstrap.css.map */
