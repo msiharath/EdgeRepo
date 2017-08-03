@@ -14,18 +14,18 @@ h2{
 }
 
 body {
-
-    background-color: lightblue;
+    background-color:green;
     color: white;
+    
 
 }
 li{
   color: blue;
 }
 
-  
+
 
 *{
-  background-color:lightblue;
+  background-color:green;
 
 }
