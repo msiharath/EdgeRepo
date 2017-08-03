@@ -1,0 +1,72 @@
+*{
+  font-family: "Comic Sans MS";
+}
+
+h1{
+  color: green;
+  text-align: center;
+}
+h1 a {
+  color: green;
+  text-shadow:
+}
+#title{
+  text-align: left;
+
+  font-family:  "comic sans MS";
+font-weight: bold;
+  color: green;
+  font-size: 32px
+
+}
+
+.topbuttons{
+  text-align: left;
+
+  font-family:  "comic sans MS";
+
+  color: green;
+  font-size: 16px
+
+}
+h2{
+  color: white;
+  text-align: left;
+
+  font-family:  "comic sans MS";
+
+  color: green;
+}
+
+body {
+
+    background-color: green;
+    font: "comic sans MS";
+
+
+}
+li{
+  color: green;
+}
+
+
+
+
+
+#caro1{
+  background-image: url("../images/Maths-Wallpapers.jpg");
+  font-family:  "comic sans MS";
+   text-shadow: 1px 1px black;
+}
+
+#caro2{
+  background-image: url("../images/numbers_wallpaper.jpg");
+  font-family:  "comic sans MS";
+  text-shadow: 1px 1px black;
+}
+
+#caro3{
+  background-image: url("../images/piWall.jpg");
+  font-family:  "comic sans MS";
+  text-shadow: 2px 2px black;
+}
