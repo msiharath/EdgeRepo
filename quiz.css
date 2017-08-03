@@ -1,5 +1,9 @@
-
 <style type="text/css" media="all">
+
+*{
+  background-color: green;
+}
+
 /*css reset */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, code, small, strike, strong, sub, sup, b, u, i {
     border:0;
@@ -8,13 +12,16 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, code, small, strike, strong, s
     vertical-align:baseline;
     margin:0;
     padding:0;
+    text-align: center;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display:block;
 }
 body {
     line-height:1;
-    font:normal 0.9em/1em"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font:normal 0.9em/1em"Comic Sans MS", Helvetica, Arial, sans-serif;
+    background-color: green;
+
 }
 ol, ul {
     list-style:none;
@@ -26,26 +33,27 @@ strong {
     max-width:620px;
     width:auto;
     border:1px solid #ccc;
-    background:#fff;
+    background:green;
     padding:10px;
     margin:3px;
 }
 h1 {
-    font:normal bold 2em/1.8em"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font:normal bold 2em/1.8em"Comic Sans MS", sans-serif;
     text-align:center;
     border-bottom:1px solid #999;
     padding:0;
     width:auto
+    color: white;
 }
 h2 {
-    font:italic bold 1.3em/1.2em"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font:italic bold 1.3em/1.2em"Comic Sans MS", sans-serif;
     padding:0;
     text-align:center;
     margin:20px 0;
 }
 p.pager {
     margin:5px 0 5px;
-    font:bold 1em/1em"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font:bold 1em/1em"Comic Sans MS", sans-serif;
     color:#999;
 }
 img.question-image {
@@ -63,10 +71,10 @@ img.question-image {
     padding:0;
 }
 #submitbutton {
-    background:#5a6b8c;
+    background:#5DADE2 ;
 }
 #submitbutton:hover {
-    background:#7b8da6;
+    background:#AED6F1;
 }
 #explanation {
     margin:0 auto;
@@ -83,5 +91,6 @@ img.question-image {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    background: white;
 }
 </style>

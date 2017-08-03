@@ -1,32 +1,63 @@
 <html>
 <head>
+  <link href="css/bootstrap.css" rel="stylesheet">
 </head>
+<body>
 <div class="container">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="quiz.js"></script>
-    <div id="frame" role="content">
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="row">
+        <img class="img-responsive" src="images/lion.png">
+      </div>
+      <div class="row">
+        <img class="img-responsive" src="images/giraffe.png">
+      </div>
+      <div class="row">
+        <img class="img-responsive" src="images/lion.png">
+      </div>
+    </div>
+    <div class="col-sm-8">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="quiz.js"></script>
+            <div id="frame" role="content">
 
 
-  <script>
-  // tell the embed parent frame the height of the content
-  if (window.parent && window.parent.parent){
-    window.parent.parent.postMessage(["resultsFrame", {
-      height: document.body.getBoundingClientRect().height,
-      slug: "7Du6N"
-    }], "*")
-  }
-</script>
-  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="quiz.css">
-    <script>
+              <script>
+              // tell the embed parent frame the height of the content
+              if (window.parent && window.parent.parent){
+                window.parent.parent.postMessage(["resultsFrame", {
+                  height: document.body.getBoundingClientRect().height,
+                  slug: "7Du6N"
+                }], "*")
+              }
+            </script>
+              <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+              <link rel="stylesheet" type="text/css" href="quiz.css">
+                <script>
 
-      // tell the embed parent frame the height of the content
-      if (window.parent && window.parent.parent){
-        window.parent.parent.postMessage(["resultsFrame", {
-          height: document.body.getBoundingClientRect().height,
-          slug: "7Du6N"
-        }], "*")
-      }
-    </script>
-</div>
+                  // tell the embed parent frame the height of the content
+                  if (window.parent && window.parent.parent){
+                    window.parent.parent.postMessage(["resultsFrame", {
+                      height: document.body.getBoundingClientRect().height,
+                      slug: "7Du6N"
+                    }], "*")
+                  }
+                </script>
+          </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="row">
+          <img class="img-responsive" src="images/lion.png">
+        </div>
+        <div class="row">
+          <img class="img-responsive" src="images/giraffe.png">
+        </div>
+        <div class="row">
+          <img class="img-responsive" src="images/lion.png">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
 </html>
