@@ -1,11 +1,26 @@
-<!--<html>
-  <head>
-    <title>Quiz Time!</title>
-    <script src="quiz.js"></script>
-    <div id="frame" role="content">
-    <link href="quiz.css" rel="stylesheet"></link>
-  </head>
-</html>-->
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <div id="frame" role="content">
+<script src="quiz.js"></script>
+    <div id="frame" role="content">
+
+
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "7Du6N"
+    }], "*")
+  }
+</script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="quiz.css">
+    <script>
+
+      // tell the embed parent frame the height of the content
+      if (window.parent && window.parent.parent){
+        window.parent.parent.postMessage(["resultsFrame", {
+          height: document.body.getBoundingClientRect().height,
+          slug: "7Du6N"
+        }], "*")
+      }
+    </script>
